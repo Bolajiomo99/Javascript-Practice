@@ -36,9 +36,21 @@ console.log(fullname.length);
 //string methods
 console.log(fullname.toUpperCase());
 console.log(fullname.toLowerCase());
-let result = fullname.toLowerCase();
-let result1 = fullname.toUpperCase();
-console.log(result, result1, fullname);
+// let result = fullname.toLowerCase();
+// let result1 = fullname.toUpperCase();
+// console.log(result, result1, fullname);
 
 // let index = email.indexOf("@");
 // console.log(index);
+
+let index = email.lastIndexOf("a");
+console.log(index);
+
+// let result = email.slice(0, 6);
+// console.log(result);
+
+// let result = email.substr(4, 10);
+// console.log(result);
+
+let result = email.replace("bolaji", "random");
+console.log(result);
